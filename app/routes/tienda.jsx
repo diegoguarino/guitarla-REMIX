@@ -4,6 +4,7 @@ import ListadoGuitarras from "~/components/guitarra";
 import styles from '~/styles/guitarras.css'
 
 
+
 export function meta() {
     return (
         {
@@ -21,7 +22,6 @@ export function links() {
         }
     ]
 }
-
 
 export async function loader() {
     const guitarras = await getGuitarras()
